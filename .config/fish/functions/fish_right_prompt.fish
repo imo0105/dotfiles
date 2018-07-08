@@ -60,7 +60,7 @@ function fish_right_prompt -d "Write out the right prompt"
         set -g __fish_prompt_normal (set_color normal)
     end
 
-    printf '<・)))><< %s ' (__fish_vcs_prompt)
+    printf '%s ' (__fish_vcs_prompt)
 
     # date setting
     set_color green
