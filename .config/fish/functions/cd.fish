@@ -1,9 +1,5 @@
-# https://qiita.com/Riliumph/items/15245ef37ffd850385e7
-
-function cd
-    if test (count $argv) -eq 0
-        builtin cd ~/
-    else if test (count $argv) -gt 1
+function cd -d 'cd then ls'
+    if test (count $argv) -gt 1
         printf "%s\n" (_ "Too many args for cd command")
         return 1
     end
