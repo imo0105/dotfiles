@@ -1,0 +1,3 @@
+[submodule ".config/fish/pyenv"]
+	path = .config/fish/pyenv
+	url = https://github.com/fisherman/pyenv
