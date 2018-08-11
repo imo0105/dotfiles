@@ -1,0 +1,1 @@
+/Users/shota-s/.config/fisherman/getopts/getopts.fish
