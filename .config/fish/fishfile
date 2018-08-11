@@ -1,2 +1,7 @@
+edc/bass
+fisherman/docker-completion
+fisherman/getopts
 fisherman/pyenv
+fisherman/spin
+oh-my-fish/plugin-tmux
 fisherman/z
