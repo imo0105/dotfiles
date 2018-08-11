@@ -1,0 +1,1 @@
+/Users/shota-s/.config/fisherman/docker-completion/completions/docker.fish
