@@ -16,6 +16,8 @@ hook_add = '''
 
     " <S-TAB>: completion back.
     inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<C-h>"
+
+    inoremap <silent><expr><CR> pumvisible() ? deoplete#mappings#close_popup(): "\<CR>"
 '''
 
 [[plugins]]
