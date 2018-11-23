@@ -7,13 +7,15 @@
     a = add
     b = branch
     bn = rev-parse --abbrev-ref HEAD
-    cm = commit
-    st = status
-    ck = checkout 
     cancel = reset HEAD^ --soft
-    unstage = reset HEAD
+    cm = commit
+    ck = checkout 
+    ps = push
+    pl = pull
+    st = status
     stash = stash save
     suba = submodule add
     subit = submodule init
     subup = submodule foreach git pull origin master
+    unstage = reset HEAD
 
