@@ -1,7 +1,13 @@
 [[plugins]]
+repo = 'roxma/nvim-yarp'
+
+[[plugins]]
+repo = 'roxma/vim-hug-neovim-rpc'
+
+[[plugins]]
 repo = 'Shougo/deoplete.nvim'
 if = 'has("python3")'
-depends = 'context_filetype.vim'
+depends = ['context_filetype.vim','nvim-yarp','vim-hug-neovim-rpc']
 hook_add = '''
     let g:deoplete#enable_at_startup = 1
     let g:deoplete#enable_ignore_case = 1
@@ -16,6 +22,8 @@ hook_add = '''
 
     " <S-TAB>: completion back.
     inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<C-h>"
+
+    inoremap <silent><expr><CR> pumvisible() ? deoplete#mappings#close_popup(): "\<CR>"
 '''
 
 [[plugins]]
