@@ -28,5 +28,14 @@ Temporary Items
 .apdisk
 
 
-# gcloud settings
+# config
+.config/karabiner
 .config/gcloud
+
+# fish
+.config/fish/fishd.*
+.config/fish/config.fish.backup
+.config/fish/conf.d/
+.config/fish/completions/
+.config/fisher/
+.config/fisherman/

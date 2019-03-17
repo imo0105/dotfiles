@@ -1,1 +1,0 @@
-/Users/shota-s/.config/fisherman/z/conf.d/z.fish

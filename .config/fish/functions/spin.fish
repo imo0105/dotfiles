@@ -1,1 +1,0 @@
-/Users/shota-s/.config/fisherman/spin/spin.fish

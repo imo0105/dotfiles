@@ -1,1 +1,0 @@
-/Users/shota-s/.config/fisherman/z/functions/zclean.awk
