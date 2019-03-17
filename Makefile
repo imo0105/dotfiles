@@ -21,7 +21,7 @@ deploy:
 	@echo 'Copyright (c) 2013-2015 BABAROT All Rights Reserved.'
 	@echo '==> Start to deploy dotfiles to home directory.'
 	@echo ''
-	@if [ -e $(HOME)/.config -a ! -L $(HOME)/.config ]; then echo "mv $(HOME).config $(HOME).config_old"; mv $(HOME).config $(HOME).config_old; fi
+	@if [ -e $(HOME)/.config -a ! -L $(HOME)/.config ]; then echo "mv $(HOME)/.config $(HOME)/.config_old"; mv $(HOME)/.config $(HOME)/.config_old; fi
 	@$(foreach val, $(DOTFILES), ln -sfnv $(abspath $(val)) $(HOME)/$(val);)
 
 init:
@@ -32,9 +32,9 @@ test:
 
 update:
 	git pull origin master
-	git submodule init
-	git submodule update
-	git submodule foreach git pull origin master
+	# git submodule init
+	# git submodule update
+	# git submodule foreach git pull origin master
 
 install: update deploy init
 	@exec $$SHELL
