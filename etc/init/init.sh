@@ -24,11 +24,10 @@ do
 done 2>/dev/null &
 
 # main
-#cd $(dirname $0)
-
-for i in $DOTPATH/etc/init/*[^init].sh
-do
-    bash $i
-done || true
+if [ `${DOTPATH}/bin/get_os` = "macOS" ]; then
+    . $DOTPATH/etc/init/init_macos.sh
+else
+    echo 'Not found init settings corresponded current OS'
+fi
 
 echo $(e_success "$0: Finish!!")
