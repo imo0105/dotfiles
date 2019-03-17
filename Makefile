@@ -21,6 +21,7 @@ deploy:
 	@echo 'Copyright (c) 2013-2015 BABAROT All Rights Reserved.'
 	@echo '==> Start to deploy dotfiles to home directory.'
 	@echo ''
+	@if [ -e $(HOME)/.config -a ! -L $(HOME)/.config ]; then echo "mv $(HOME).config $(HOME).config_old"; mv $(HOME).config $(HOME).config_old; fi
 	@$(foreach val, $(DOTFILES), ln -sfnv $(abspath $(val)) $(HOME)/$(val);)
 
 init:
