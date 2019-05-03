@@ -85,7 +85,7 @@ hook_add = '''
 '''
 
 [[plugins]]
-repo = 'taohex/lightline-buffer'
+repo = 'taohexxx/lightline-buffer'
 hook_add = '''
 set hidden  " allow buffer switching without saving
 set showtabline=2  " always show tabline
