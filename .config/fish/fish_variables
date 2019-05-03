@@ -25,7 +25,7 @@ SETUVAR fish_color_operator:00a6b2
 SETUVAR fish_color_param:FF79C6
 SETUVAR fish_color_quote:F1FA8C
 SETUVAR fish_color_redirection:8BE9FD
-SETUVAR fish_color_search_match:\x2d\x2dbackground\x3dblack
+SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen

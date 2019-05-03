@@ -5,7 +5,7 @@ repo = 'Shougo/dein.vim'
 repo = 'itchyny/lightline.vim'
 hook_add = '''
     let g:lightline = {
-        \ 'colorscheme': 'dracula',
+        \ 'colorscheme': 'jellybeans',
         \ 'mode_map': {'c': 'NORMAL'},
         \ 'active': {
         \   'left': [ [ 'mode', 'paste' ], [ 'fugitive', 'filename' ] ]
