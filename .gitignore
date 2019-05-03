@@ -31,6 +31,7 @@ Temporary Items
 # config
 .config/karabiner
 .config/gcloud
+.config/htop
 
 # fish
 .config/fish/fishd.*
@@ -39,3 +40,4 @@ Temporary Items
 .config/fish/completions/
 .config/fisher/
 .config/fisherman/
+.config/fish/functions/__*
